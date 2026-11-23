@@ -13,6 +13,8 @@ Formerly named `fab-sol`. The default executor is `gpt-6.2-astra`; helper reques
 
 In Claude Code, the tested route is Claude Code → local CLIProxyAPI → Astra. In Codex, the assistant checks whether direct work or a permitted native agent is appropriate. Loading this skill in Codex does not automatically launch a proxy session.
 
+The instructions use **Fable** for the coordinating assistant and **executor** for the assistant assigned the build. References to a vault, naming rules or writing skills mean your own project conventions; those companion skills are not included here.
+
 ## Install
 
 Clone this repository into a new folder, then place its `SKILL.md` inside a `fab-ast` folder in your host's local skills directory. Back up an existing installation before replacing it. In Claude Code, invoke `/fab-ast`; in Codex, select the skill through its skill picker. Menu behavior can vary by app version.
